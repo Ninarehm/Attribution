@@ -1,7 +1,7 @@
 # Attributing Fair Decisions with Attention Interventions
 
 
-# Requirements:
+**Requirements:**
 
 tensorflow >= 1.12.0
 numpy == 1.19.4
@@ -11,14 +11,13 @@ scipy == 1.5.4
 
 _____________________________________________
 
-#To run the code for Adult:
+**To run the code for Adult:**
 
-go to the corresponding adult folder
+go to the corresponding adult folder and run:
 
-run:
-
-adult.py seed decade-rate
-
+```bash
+python adult.py seed decade-rate
+```
 
 where seed is the random seed (int)
 
@@ -27,13 +26,13 @@ decade-rate is the rate for which you want to decrease the attention weights (fl
 
 _____________________________________________
 
-#To run the code for Health:
+**To run the code for Health:**
 
-go to the corresponding health folder
+go to the corresponding health folder and run:
 
-run:
-
-health.py seed decade-rate
+```bash
+python health.py seed decade-rate
+```
 
 where seed is the random seed (int)
 
@@ -43,13 +42,13 @@ Seeds tried for the 5 runs: 2019, 2021, 0, 100, 5000
 
 _____________________________________________
 
-#Referenced paper link:
+**Referenced paper link:**
 
 https://aclanthology.org/2022.trustnlp-1.2.pdf
 
 _____________________________________________
 
-#Citation
+**Citation**
 
 ```
 cite
