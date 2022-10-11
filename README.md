@@ -4,9 +4,13 @@
 **Requirements:**
 
 tensorflow >= 1.12.0
+
 numpy == 1.19.4
+
 pandas == 1.1.5
+
 scikit-learn == 0.23.2
+
 scipy == 1.5.4
 
 _____________________________________________
